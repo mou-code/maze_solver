@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/mou/project_workspace/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/mou/project_workspace/src/turtlebot3_simulations/turtlebot3_fake/include/**",
+        "/home/mou/project_workspace/src/turtlebot3_simulations/turtlebot3_gazebo/include/**",
+        "/home/mou/project_workspace/src/turtlebot3/turtlebot3_slam/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

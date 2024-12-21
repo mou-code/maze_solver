@@ -1,0 +1,15 @@
+local_costmap:
+  global_frame: odom
+  robot_base_frame: base_footprint
+
+  update_frequency: 10.0
+  publish_frequency: 10.0
+  transform_tolerance: 0.5  
+
+  static_map: false  
+  rolling_window: true
+  # parameters define size of map (in meters).
+  width: 25
+  height: 25
+  resolution: 0.1
+  

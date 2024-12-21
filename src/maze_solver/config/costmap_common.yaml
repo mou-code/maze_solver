@@ -1,0 +1,18 @@
+# determines the maximum range sensor reading that will result in an obstacle being put into the costmap.
+
+obstacle_range: 50
+# defines the maximum range in which the map data will be included in the cost map.
+raytrace_range: 50
+
+footprint: [[-0.105, -0.105], [-0.105, 0.105], [0.041, 0.105], [0.041, -0.105]]
+#robot_radius: 0.105
+
+# determines from what distance from the obstacle, take into account the cost - any distance less than indicated will be included as an additional cost.
+inflation_radius: 0.4
+
+# defines the rate of cost decay with distance. Increasing the value causes the cost at the same distance from the obstacle to have a higher cost value
+cost_scaling_factor: 3.0
+
+map_type: costmap
+observation_sources: scan
+scan: {sensor_frame: base_scan, data_type: LaserScan, topic: scan, marking: true, clearing: true, max_obstacle_height: 25.0}
